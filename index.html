@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple App</title>
+    <script src="angular.min.js"></script>
+    <script src="client.js"></script>
+  </head>
+  <body>
+    <div ng-controller="MyController">
+      <input ng-model="name" type="text" placeholder="Your name">
+      <h1>Hello {{ name }}</h1>
+      <h5>{{ clock.now }}</h5>
+  </div>
+  </body>
+</html>
